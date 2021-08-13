@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    background-color: -internal-root-color;
+}
+/* ************** HEADER ******************* */
+#myHeader
+{
+  display: inline; 
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
+
+nav
+{
+  background-color:rgba(255,255,255,0.95);
+  position: sticky;
+  top: 0;
+  height: 190px;
+
+}
+
+nav ul 
+{
+  list-style: none;
+  width: 100%;
+  height: 20%;
+  text-align: right;
+  float: right;
+  padding-right: 10%;
+  padding-top: 7.2%;
+ 
+
+}
+nav li 
+{
+    display:inline-block;
+    margin: -2px;
+  
+}
+li a
+{
+  list-style: none;
+  text-decoration: none;
+  font-style:  italic;
+  font-size: 30px;
+  color: black;
+  border-color: black;
+  padding: 8px 16px;
+  margin: 0px;
+
+}
+@media screen and (max-width:480px) 
+{
+#myHeader
+{
+  background-color: black;
+  width: 50%;
+}
+main
+{
+  
+}
+}
+li a:hover:not(.active) {
+  
+  background-color: grey;
+  color: white;
+}
+
+.active 
+{
+  
+  background-color: black;
+  color: white;
+}
+
+#logo
+{
+  
+  
+  float: left;
+  padding-left: 20%;
+  
+  
+}
+/*--------proba---------*/
+
+/*-----------------*/
+
+
+/* ************** HEADER ******************* */
+
+
+/* ************** BODY ******************* */
+h1
+{
+  padding-left: 10%;
+  padding-top: 5%;
+  font-family: "bookman-jf-pro", serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+video
+{
+  /*transform: scaleY(1.076);*/
+  width: 100%;
+  height: 98%;
+ /* padding-bottom: 20px;*/
+  object-fit: cover;
+
+}
+
+
+div
+{
+    display: block;
+}
+main
+{
+width: 100%;
+height: 60%;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 32.333% 32.333% 32.333%;
+    width: 100%;
+
+    grid-gap: 1.5%;
+
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+   padding: 20px 0px;
+  
+  font-size: 30px;
+
+}
+
+.cell
+{
+  width: 100%;
+  height: 98%;
+
+}
+
+.grid-container > div:hover
+{
+  
+}
+/* ************** BODY ******************* */
+
+/* ************** FOOTER ******************* */
+footer .inner {
+    margin: auto;
+    width: 88%;
+    max-width: 1024px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+footer {
+    position: relative;
+    z-index: 5;
+    height: 190px;
+    text-align: center;
+    background-color: #060606;
+    color: #ffffff;
+    font-size: 0.78rem;
+    
+
+}
+
+footer a
+{
+color: white;
+}
+
+/* ************** FOOTER ******************* */

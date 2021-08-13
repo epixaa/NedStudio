@@ -1,0 +1,324 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    background-color: -internal-root-color;
+}
+/* ************** HEADER ******************* */
+
+#myHeader
+{
+  display: inline; 
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
+
+nav
+{
+  background-color:rgba(255,255,255,0.95);
+  position: sticky;
+  top: 0;
+  height: 190px;
+
+}
+
+nav ul 
+{
+  list-style: none;
+  width: 100%;
+  height: 20%;
+  text-align: right;
+  float: right;
+  padding-right: 10%;
+  padding-top: 7.2%;
+ 
+
+}
+nav li 
+{
+    display:inline-block;
+    margin: -2px;
+  
+}
+li a
+{
+  list-style: none;
+  text-decoration: none;
+  font-style:  italic;
+  font-size: 30px;
+  color: black;
+  border-color: black;
+  padding: 8px 16px;
+  margin: 0px;
+
+
+  
+}
+li a:hover:not(.active) {
+  
+  background-color: grey;
+  color: white;
+}
+
+.active 
+{
+  
+  background-color: black;
+  color: white;
+}
+
+#logo
+{
+  
+  
+  float: left;
+  padding-left: 20%;
+  
+  
+}
+/* ************** HEADER ******************* */
+
+
+/* ************** BODY ******************* */
+
+#me
+{
+padding: 10%;
+padding-top: 3%;
+padding-bottom: 0;
+display: block;
+width: 20%;
+height: 50%;
+margin-left: auto;
+  margin-right: auto;
+}
+#info
+{
+  padding: 10%;
+  padding-top: 5%;
+}
+#div1 h1
+{
+padding-bottom: 2%;
+}
+div
+{
+    display: block;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 32.99% 32.99% 32.99%;
+  width: 100%;
+
+  grid-gap: 20px;
+  
+ 
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0px;
+  font-size: 30px;
+
+}
+
+.widget_title{
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+
+.boxed-btn {
+  background: #fff;
+  
+  display: inline-block;
+  padding: 18px 44px;
+ margin-left: 12px;
+ margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 400;
+  border: 0;
+  border: 1px solid #000;
+  letter-spacing: 3px;
+  text-align: center;
+ 
+  text-transform: uppercase;
+}
+
+
+.boxed-btn:hover {
+  background: #000;
+  color: #fff !important;
+  border: 1px solid #000;
+}
+
+
+
+
+.blog_area a {
+  color: #666666 !important;
+  text-decoration: none;
+  -webkit-transition: 0.5s;
+  
+
+}
+
+
+.blog_area a:hover, .blog_area a :hover {
+  background: -webkit-linear-gradient(131deg, #000 0%, #000 99%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-decoration: none;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+
+
+
+
+
+.blog_details {
+  padding: 30px 0 20px 10px;
+  margin-right: 15px;
+  
+}
+
+.blog_details p{
+  padding-top: 10px;
+}
+
+@media (min-width: 768px) {
+
+  
+}
+
+
+
+
+.single-post-area .blog_details {
+  padding-top: 26px;
+}
+
+
+.single-post-area .blog_details p {
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+
+
+.single-post-area .quote-wrapper {
+  background: rgba(130, 139, 178, 0.1);
+  padding: 15px;
+  line-height: 1.733;
+  color: #888888;
+  font-style: italic;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+@media (min-width: 768px) {
+
+  .single-post-area .quote-wrapper {
+    padding: 30px;
+  }
+}
+
+
+.single-post-area .quotes {
+  background: #fff;
+  padding: 15px 15px 15px 20px;
+  border-left: 2px solid;
+}
+
+@media (min-width: 768px) {
+ 
+  .single-post-area .quotes {
+    padding: 25px 25px 25px 30px;
+  }
+}
+
+
+.blog_area a {
+  color: #666666 !important;
+  text-decoration: none;
+  -webkit-transition: 0.5s;
+  
+
+}
+
+
+.blog_area a:hover, .blog_area a :hover {
+  background: -webkit-linear-gradient(131deg, #000 0%, #000 99%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-decoration: none;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+
+
+
+
+
+.blog_details {
+  padding: 30px 0 20px 10px;
+  
+}
+
+.blog_details p{
+  padding-top: 10px;
+}
+
+@media (min-width: 768px) {
+
+  
+}
+
+
+/* ************** BODY ******************* */
+
+/* ************** FOOTER ******************* */
+footer .inner {
+    margin: auto;
+    width: 88%;
+    max-width: 1024px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  @media (max-width: 700px)
+{
+footer .inner {
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+    flex-wrap: wrap;
+}
+}
+footer {
+    position: relative;
+    z-index: 5;
+    height: 190px;
+    text-align: center;
+    background-color: #060606;
+    color: white;
+    font-size: 0.78rem;
+    font-weight: bold;
+   
+}
+
+footer a
+{
+color: white;
+}
+
+
+/* ************** FOOTER ******************* */
